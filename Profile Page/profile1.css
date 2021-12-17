@@ -1,0 +1,185 @@
+/* code reset*/
+*{ 
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-right: 10px;
+}
+.right-nav-bar{
+    display: inline;
+}
+li{
+    padding-right: 10px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+button{
+    background-color: cyan;
+    color: white;
+    padding: 2px;
+}
+.flex-container{
+    
+    display: flex;
+    width: auto;
+
+}
+.content {
+    height: max-content;
+    margin-top: 20px;
+}
+
+#left{
+    flex: 6;
+    display: block;
+}
+#right{
+    flex: 4;
+}
+.card{
+    border: solid 2px lightgray;
+    height: max-content;
+    width: max-content;
+    margin-left: 30%;
+}
+.card-header{
+    background-color: cyan;
+    height: 40px;
+    width: 450px;
+    display: block;
+}
+#avatar{
+    height: 60px;
+    position: absolute;
+    top: 80px;
+    margin-left: 25px;
+}
+#map-marker{
+    height: 20px;
+    padding-right: 10px;
+}
+h2{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+#card-paragraph{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h3{
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+}
+#gear{
+    height: 20px;
+}
+.card-info{
+    margin: 30px 80px 30px 30px;
+    
+
+}
+.education{
+    border: solid 2px lightgrey;
+    width: max-content;
+    height: max-content;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+.education-header{
+    background-color: black;
+    color: white;
+    height: fit-content;
+    width: 410px;
+    padding: 8px 20px;
+    font-weight: bolder;
+}
+.education-content{
+    margin: 10px 20px 15px 20px;
+}
+#education-school{
+    font-size: 20px;
+    font-weight: bold;
+}
+#education-date{
+    color: grey;
+    padding-top: 5px;
+    padding-left: 3px;
+    font-weight: bold;
+}
+#education-accomplishments{
+    padding-top: 5px;
+    font-weight: bold;
+}
+.pend-box, .contact-box{
+    width: 40%;
+    margin-left: 50px;
+    border: solid grey 2px;
+    margin-bottom: 30px;
+}
+.black-header{
+    height: 40px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+}
+.connectionbubble{
+    background-color: lightgray;
+    color: black;
+    border: gray solid 1px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 3px 7px;
+}
+.contact img{
+    height: 40px;
+    border: white solid;
+    border-radius: 50%;
+    margin: 5px;
+}
+.response{
+    height: 30px;
+    padding-right: 10px;
+}
+.contact-request{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+    font-weight: bolder;
+    
+}
+.id-text{
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+ul{
+    list-style: none;
+}
+.view-more{
+    border-top: solid gray ;
+    padding: 10px;
+}

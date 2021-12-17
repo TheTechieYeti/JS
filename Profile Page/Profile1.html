@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="profile1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- This is my nav bar -->
+    <div class="nav-bar">
+        <h1 id="nav-title">Profile</h1>
+        <div class="right-nav-bar">
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+            </ul>
+            <button>Sign Out</button>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class="content" id="left"> 
+            <div class="card">
+                <div class="card-header"></div>
+                <div><img src="icons/user-circle.png" alt="User Avatar" id="avatar"></div>
+                <div class="card-info">
+                    <h1 id="name">Jane Doe</h1>
+                    <h2><img src="icons/map-marker.png" id=map-marker alt="Map Marker">Seattle</h2>
+                    <div id="card-paragraph">
+                        <p>Developer | Engineer | Problem Solver</p>
+                    <p>Master of Shadows and the Internet!</p>
+                    </div>
+                    <h3><img src="icons/gear.png" id=gear alt="gear"> <a href="#" onclick="changename('#name')">edit profile</a></h3>
+                </div>
+            </div>
+            <div class="education">
+                <div class="education-header">Education</div>
+                <div class="education-content">
+                    <p id="education-school">Coding Dojo - Full Stack Bootcamp</p>
+                    <p id="education-date">Dec 2019 - Mar 2020</p>
+                    <p id="education-accomplishments">Triple black belt in Python, MERN, and C#...</p>
+                </div>
+            </div>
+        </div>
+            
+        <div class="content" id="right">
+            <div class="pend-box">
+                <div class="black-header"><span class="connectionbubble">2</span> Connection Requests
+                </div>
+                <div class="request-box">
+                    <div class="contact-request" id="contact-todd">
+                        <div class="contact" ><img src="images/todd-s.jpg" alt="Picure of Todd"><span class="id-text">Todd E</span >
+                        </div>
+                        <div class="accept-deny">
+                            <img src="icons/accept-circle.png" alt="Accept" class="response"  onclick="accept('#contact-todd')"> 
+
+                            <img src="icons/close-circle.png" alt="Deny" class="response" onclick="deny('#contact-todd')"></div>
+                    </div>
+                    <div class="contact-request" id="contact-phil">
+                        <div class="contact" ><img src="images/phil-s.jpg" alt="Picure of Phill"><span class="id-text">Phil K</span></div>
+                    <div class="accept-deny">
+                        <img src="icons/accept-circle.png" alt="Accept" class="response" onclick="accept('#contact-phil')"> 
+                        
+                        <img src="icons/close-circle.png" alt="Deny" class="response" onclick="deny('#contact-phil')"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div class="black-header"><span class="connectionbubble"><span id = "connectionscount">500</span>+</span>Your Connections</div>
+                <div class="contact list">
+                    <ul>
+                        <li><div class="contact"><img src="images/adrien-s.jpg" alt="Picure of adrien-s"><span class="id-text">Adrien D</span></div></li>
+                        <li><div class="contact"><img src="images/anne-s.jpg" alt="Picure of Anne S"><span class="id-text">Anne S</span></div></li>
+                        <li><div class="contact"><img src="images/alayne-s.jpg" alt="Picure of Alayne S"><span class="id-text">Alayne S</span></div></li>
+                        <li><div class="contact"><img src="images/arry-s.jpg" alt="Picure of Todd"><span class="id-text">Arry Y</span></div></li>
+                    </ul>
+                </div>
+                <div class="view-more"><a href="#">View More</a></div>
+            </div>
+            
+        </div>
+    </div>
+<script src="profile1.js"></script>
+</body>
+</html>

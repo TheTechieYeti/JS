@@ -1,0 +1,99 @@
+*{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#navbar{
+    background-color: lightsteelblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+    padding: 13px 20px;
+    height: 80px;
+}
+#navbar-cities{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    max-width: 540px;
+    min-width: 301px;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+li>a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+#currentcity{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 100px;
+    padding: 0px 20px;
+    border-bottom: 2px solid black;
+    vertical-align: middle;
+    align-items: center;
+}
+#currentcity p{
+    font-size: 30px;
+    font-weight: bold;
+}
+#currentcity label, select{
+    margin-left: 10px;
+}
+#fourdayforecast {
+display: flex;
+justify-content: center;
+}
+.forecastday{
+    background-color: lightgray;
+    text-align: center;
+    display: flexbox;
+    align-content: center;
+    margin: 10px 20px;
+    padding: 0px 30px;
+}
+.forecastday h1{
+    font-size: 35px;
+    font-weight: bold;
+    min-width: 150px;
+}
+.forecastday p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.forecastday img{
+    height: 110px;
+}
+.high-low{
+    display: flex;
+    justify-content: space-around;
+}
+.high-low .high{
+    color: red;
+    font-size: 35px;
+    margin-right: 10px;
+}
+.high-low .low{
+    color: blue;
+    font-size: 35px;
+}
+#cookies{
+    background-color: lightgray;
+    margin: 10px 120px;
+    display: flex;
+}
+#cookies img{
+    height: 80px;
+}
+#accept{
+    width: 20%;
+    margin: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightseagreen;
+    border-radius: 3px;
+    box-shadow: 3px 3px;
+}

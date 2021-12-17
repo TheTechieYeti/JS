@@ -1,0 +1,127 @@
+*{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.nav-bar{
+    height: 60px;
+    background-color: lightgray;
+    border: solid lightgray;
+    
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    align-items: center;
+    padding: 25px 10px;
+}
+.nv-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.nv-login button{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: blue;
+    color: white;
+    border: solid black 2px;
+    box-shadow: 3px 3px black;
+    font-size: 17px;
+    margin-bottom: 5px;
+    width: 80px;
+    vertical-align: middle;
+}
+#nv-search{
+    width: 300px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 20px;
+
+}
+
+.container{
+    width: 800px;
+    height: max-content;
+    display: flex;
+}
+.col-1{
+    width: 650px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.col-2{
+    width: 350px;
+    height: 120px;
+}
+.col-1-box1, .col-1-box2{
+    border: solid black 2px;
+    height: 200px;
+    margin-right: 50px;
+    display: flex;
+    margin-bottom: 20px;
+
+    
+}
+.col-1-box1-left{
+    display: flexbox;
+    width: 30%;
+    text-align: center;
+    line-height: 35px;
+}
+.col-1-box1-left-like-box-entry{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.col-1-box1-left-like-box-noun{
+    font-size: 25px;
+    font-weight: bold;
+}
+.col-1-box1-left-like-box-plural{
+    font-weight: bold;
+}
+.col-1-box1-left-like-box-plural>span{
+    font-style: italic;
+}
+.col-1-box1-left-like-box{
+    background-color: yellow;
+    border: solid 2px black;
+    box-shadow: 3px 3px;
+    width: 80%;
+    margin-left: 10%;
+    height: 16%;
+    margin-top: -5px;
+}
+.col-1-box1-right {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 45px;
+    font-weight: 700;
+}
+.col-1-box2{
+    margin-top: 15px;
+}
+.col-2-box{
+    border: solid black 3px;
+    display: block;
+    
+}
+.col-2-box button{
+    width: 90%;
+    background-color: limegreen;
+    font-size: 17px;
+    font-weight: bold;
+    border: solid black 2px;
+    box-shadow: 3px 3px;
+    
+}
+.col-2-box{
+    border: solid black 2px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.col-2-box span{
+    font-weight: bold;
+}

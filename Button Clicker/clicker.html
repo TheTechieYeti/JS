@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker</title>
+    <link rel="stylesheet" href="clicker.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="nv-title">Dojonary</div>
+        <div class="nv-search">
+            <label for="nv-search" ></label>
+            <input type="text" id="nv-search" placeholder="Search for anything..."><br><br>
+        </div>
+        <div class="nv-login">
+            <button id= "nv-login" onclick="logout()">Login</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-1">
+            <div class="col-1-box1">
+                <div class="col-1-box1-left">
+                    <p class="col-1-box1-left-like-box-entry">ninja</p>
+                    <p class ="col-1-box1-left-like-box-noun">noun</p>
+                    <p class="col-1-box1-left-like-box-plural">Plural: <span>ninjas</span></p>
+                    <p class="col-1-box1-left-like-box" onclick="notice()">13 likes</p>
+                </div>
+                <div class="col-1-box1-right">
+                    A practioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></div>
+            </div>
+            <div class="col-1-box2">
+                <div class="col-1-box1-left">
+                    <p class="col-1-box1-left-like-box-entry">ninja</p>
+                    <p class ="col-1-box1-left-like-box-noun">noun</p>
+                    <p class="col-1-box1-left-like-box-plural">Plural: <span>ninjas</span></p>
+                    <p class="col-1-box1-left-like-box" onclick="notice()">37 likes</p>
+                </div>
+                <div class="col-1-box1-right">
+                    a <a href="#">programmer</a> who breaks down problems with <a href="#">zen-</a>like focus </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="col-2-box">
+                <p>Dojonary is defined by <span>YOU</span></p>
+                <button onclick="hide()" id="button">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="clicker.js"></script>
+</body>
+</html>

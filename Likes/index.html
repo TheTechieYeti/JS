@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="nv-title">Network
+        </div>
+    </div>
+    <h1 class="feed">Your Feed</h1>
+    <div class="container">
+        <div class="col-2">
+            <div class="col-2-box">
+                <img src="user-circle.png" alt="User Image">
+                <p><a href="#">Add an avatar</a></p>
+                <h1>James Doe</h1>
+            </div>
+        </div>
+        <div class="col-1">
+            <div class="col-1-box1">
+                <div class="box-1top">
+                    <p class="box-1topname">Neil M</p>
+                    <div class="box-1toplikes">
+                        <p><span id="like-number1">9 </span>like(s)</p>
+                        <button class="like-button" onclick="increasecount('#like-number1')">Like</button>
+                    </div>
+                </div>    
+                <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+            </div>
+            <div class="col-1-box1">
+                <div class="box-1top">
+                    <p class="box-1topname">Nichole K</p>
+                    <div class="box-1toplikes">
+                        <p><span id="like-number2">12 </span> like(s)</p>
+                        <button class="like-button" onclick="increasecount( '#like-number2' )">Like</button>
+                    </div>
+                </div>    
+                <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+            </div>
+            <div class="col-1-box1">
+                <div class="box-1top">
+                    <p class="box-1topname">Jim R</p>
+                    <div class="box-1toplikes">
+                        <p><span id="like-number3">9 </span> like(s)</p>
+                        <button class="like-button" onclick="increasecount('#like-number3')">Like</button>
+                    </div>
+                </div>    
+                <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+            </div>
+            
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
